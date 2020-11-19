@@ -14,7 +14,7 @@
 		CEC4874F2562521000B2238F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC4874E2562521000B2238F /* Assets.xcassets */; };
 		CEC487522562521000B2238F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC487502562521000B2238F /* LaunchScreen.storyboard */; };
 		CEC4875B25627ABC00B2238F /* CustomHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC4875A25627ABC00B2238F /* CustomHeaderView.swift */; };
-		CEC4875E25627B5500B2238F /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC4875D25627B5500B2238F /* CustomView.xib */; };
+		CEC4875E25627B5500B2238F /* CustomHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC4875D25627B5500B2238F /* CustomHeaderView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		CEC487512562521000B2238F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEC487532562521000B2238F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEC4875A25627ABC00B2238F /* CustomHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderView.swift; sourceTree = "<group>"; };
-		CEC4875D25627B5500B2238F /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		CEC4875D25627B5500B2238F /* CustomHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomHeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				CEC487492562520E00B2238F /* ViewController.swift */,
 				CEC4875A25627ABC00B2238F /* CustomHeaderView.swift */,
 				CEC4874B2562520E00B2238F /* Main.storyboard */,
-				CEC4875D25627B5500B2238F /* CustomView.xib */,
+				CEC4875D25627B5500B2238F /* CustomHeaderView.xib */,
 				CEC4874E2562521000B2238F /* Assets.xcassets */,
 				CEC487502562521000B2238F /* LaunchScreen.storyboard */,
 				CEC487532562521000B2238F /* Info.plist */,
@@ -131,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC487522562521000B2238F /* LaunchScreen.storyboard in Resources */,
-				CEC4875E25627B5500B2238F /* CustomView.xib in Resources */,
+				CEC4875E25627B5500B2238F /* CustomHeaderView.xib in Resources */,
 				CEC4874F2562521000B2238F /* Assets.xcassets in Resources */,
 				CEC4874D2562520E00B2238F /* Main.storyboard in Resources */,
 			);

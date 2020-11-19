@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     
-    @IBOutlet weak var tablerView: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +27,23 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "Section: \(indexPath.row)"
         return cell
     }
+    let headerID = String(describing: CustomHeaderView.self)
     
-}
+    private func tableViewConfig() {
+        
+        let nib = UINib(nibName: headerID, bundle: nil)
+        
+        tableView.register(nib, forHeaderFooterViewReuseIdentifier: headerID)
+        
+        tableView.tableFooterView = UIView()}
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+     let header = tableView.dequeueReusableHeaderFooterView(withIdentifier: headerID) as! CustomHeaderView
 
+    header.titleLable.text = "Section: \(section)"
+
+     return header}
+
+     //func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+     //return 60}
+    }
